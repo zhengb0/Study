@@ -1,6 +1,3 @@
-
-# 设计模式之美学习总结
-
 ## 设计原则与思想 总结
 ![编写高质量代码](https://static001.geekbang.org/resource/image/f3/d3/f3262ef8152517d3b11bfc3f2d2b12d3.png "编写高质量代码")
 ### 代码质量评判标准
