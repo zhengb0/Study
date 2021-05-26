@@ -1,6 +1,6 @@
-###利用递归的思想来解题
+### 利用递归的思想来解题
 
-####硬币组合
+#### 硬币组合
 
 
 ```
@@ -29,7 +29,7 @@ private static int [] rewards = {1,2,5,10};
     }
 ```
 
-####整数拆解乘积
+#### 整数拆解乘积
 ```
 public static void get(int totalReward, ArrayList<Integer> result) {
         if (totalReward == 1) {
