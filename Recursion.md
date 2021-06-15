@@ -53,3 +53,21 @@ public static void get(int totalReward, ArrayList<Integer> result) {
         }
     }
 ```
+
+###最少硬币组合
+```
+public static int getMinMoney(int[] c, int[] value) {
+        int[] t = new int[3];
+        for (int i = 0; i < c.length; i++) {
+            for (int j = 0; j < value.length; j++) {
+                if (i - value[j] >= 0) {
+                    t[j] = c[i - value[j]] + 1;
+                }
+            }
+            int min = Math.min(t[0], t[1]);
+            min = Math.min(min, t[2]);
+            c[i] = min;
+        }
+        return c[c.length - 1];
+    }
+```
