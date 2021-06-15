@@ -54,7 +54,7 @@ public static void get(int totalReward, ArrayList<Integer> result) {
     }
 ```
 
-###最少硬币组合
+### 最少硬币组合
 ```
 public static int getMinMoney(int[] c, int[] value) {
         int[] t = new int[3];
