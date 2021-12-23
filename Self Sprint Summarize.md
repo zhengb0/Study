@@ -3,6 +3,7 @@
 #### 这个迭代个人工作质量较差，Bug数量较多，故专门总结一下个人这个迭代的问题。
 
 #### [Bug List](http://qc.feifanuniv.com/issues/?filter=14689)
+#### [Task List](http://qc.feifanuniv.com/issues/?filter=14717)
 
 ### 对每个Bug进行单独分析
 
